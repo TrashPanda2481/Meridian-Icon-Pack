@@ -11,7 +11,7 @@
    viewBox="0 0 48 48"
    version="1.1"
    id="svg27"
-   sodipodi:docname="folder-development.svg"
+   sodipodi:docname="folder-text.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata33">
@@ -71,20 +71,23 @@
   <linearGradient
      id="a"
      x2="437.61353"
-     y1="510.49985"
-     y2="535.48004"
+     y1="510.79373"
+     y2="535.77393"
      gradientTransform="matrix(.69229859 0 0 .69207328 120.25629 150.83367)"
      gradientUnits="userSpaceOnUse"
-     x1="395.01407">
+     x1="393.54514">
     <stop
+        
        offset="0"
        id="stop2"
        style="stop-color:#6e3a05;stop-opacity:1" />
     <stop
        style="stop-color:#e8760a;stop-opacity:1"
        id="stop851"
-       offset="0.5" />
+       offset="0.5"
+         />
     <stop
+        
        offset="1"
        id="stop4"
        style="stop-color:#6e3a05;stop-opacity:1" />
@@ -97,6 +100,7 @@
        id="g17">
       <path
          d="m389.57144 489.79806v10.99994h38l-1e-5 -8h-19l-3-3-15.99999-1.8e-4z"
+          
          id="path7"
          style="fill-opacity:1;fill:url(#linearGradient849)" />
       <path
@@ -130,7 +134,7 @@
        stroke-width=".692299"
        id="path21" />
     <path
-       d="m402.57144 505.798v12h12v-12zm1 3h10v8c-3.55093-0.037-6.45031-0.077-10 0zm3 2v4l4-2z"
+       d="m402.57144 505.798v1h6v-1zm0 2v1h12v-1zm0 2v1h10v-1zm0 3v1h6v-1zm0 2v1h12v-1zm0 2v1h9v-1z"
        fill="#331a02"
        id="path23" />
   </g>

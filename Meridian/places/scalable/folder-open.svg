@@ -11,7 +11,7 @@
    viewBox="0 0 48 48"
    version="1.1"
    id="svg27"
-   sodipodi:docname="folder-development.svg"
+   sodipodi:docname="folder-open.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata33">
@@ -43,9 +43,9 @@
        xlink:href="#linearGradient847"
        id="linearGradient849"
        x1="389.57144"
-       y1="495.29791"
+       y1="498.29791"
        x2="427.57144"
-       y2="495.29791"
+       y2="498.29791"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -71,20 +71,23 @@
   <linearGradient
      id="a"
      x2="437.61353"
-     y1="510.49985"
-     y2="535.48004"
+     y1="518.14087"
+     y2="534.59839"
      gradientTransform="matrix(.69229859 0 0 .69207328 120.25629 150.83367)"
      gradientUnits="userSpaceOnUse"
-     x1="395.01407">
+     x1="394.13272">
     <stop
+        
        offset="0"
        id="stop2"
        style="stop-color:#6e3a05;stop-opacity:1" />
     <stop
        style="stop-color:#e8760a;stop-opacity:1"
        id="stop851"
-       offset="0.5" />
+       offset="0.5"
+         />
     <stop
+        
        offset="1"
        id="stop4"
        style="stop-color:#6e3a05;stop-opacity:1" />
@@ -96,11 +99,12 @@
        stroke-width=".692299"
        id="g17">
       <path
-         d="m389.57144 489.79806v10.99994h38l-1e-5 -8h-19l-3-3-15.99999-1.8e-4z"
+         d="m389.57144 489.79806v16.99994h38l-1e-5 -14h-19l-3-3-15.99999-1.8e-4z"
+          
          id="path7"
          style="fill-opacity:1;fill:url(#linearGradient849)" />
       <path
-         d="m404.57143 496.798-3 3h-13l1e-5 26.00047 39.99999-4.7e-4v-29z"
+         d="m404.57143 502.798-3 3h-13l1e-5 20.00047 39.99999-4.7e-4v-23z"
          fill="url(#a)"
          id="path9"
          style="fill-opacity:1;fill:url(#a)" />
@@ -109,29 +113,27 @@
          fill-rule="evenodd"
          id="g15">
         <path
-           d="m388.57143 499.798v1h14l2-4-3 3z"
+           d="m388.57143 505.798v1h14l2-4-3 3z"
            fill="#fff"
            id="path11" />
         <path
-           d="m389.56364 498.79794.0156 1.00006h11.99217l3-3-4 2z"
+           d="m389.56366 504.79794.0156 1.00006h11.99217l3-3-4 2z"
            id="path13" />
       </g>
     </g>
-    <path
-       d="m388.57144 524.79776v.9998c-.00001.00045 39.99999 0 39.99999 0v-.9998z"
+    <g
        fill-opacity=".235294"
-       stroke-width=".830373"
-       id="path19" />
-    <path
-       d="m405.57143 489.798 2 4h20v-1h-19z"
-       fill="#fff"
-       fill-opacity=".235294"
-       fill-rule="evenodd"
-       stroke-width=".692299"
-       id="path21" />
-    <path
-       d="m402.57144 505.798v12h12v-12zm1 3h10v8c-3.55093-0.037-6.45031-0.077-10 0zm3 2v4l4-2z"
-       fill="#331a02"
-       id="path23" />
+       id="g23">
+      <path
+         d="m388.57144 524.79776v.9998c-.00001.00045 39.99999 0 39.99999 0v-.9998z"
+         stroke-width=".830373"
+         id="path19" />
+      <path
+         d="m405.57143 489.798 2 4h20v-1h-19z"
+         fill="#fff"
+         fill-rule="evenodd"
+         stroke-width=".692299"
+         id="path21" />
+    </g>
   </g>
 </svg>

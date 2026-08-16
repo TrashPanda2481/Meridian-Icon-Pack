@@ -11,7 +11,7 @@
    viewBox="0 0 48 48"
    version="1.1"
    id="svg27"
-   sodipodi:docname="folder-development.svg"
+   sodipodi:docname="folder-bookmark.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata33">
@@ -70,12 +70,12 @@
      inkscape:current-layer="g17" />
   <linearGradient
      id="a"
-     x2="437.61353"
-     y1="510.49985"
-     y2="535.48004"
+     x2="439.08246"
+     y1="510.79373"
+     y2="534.3045"
      gradientTransform="matrix(.69229859 0 0 .69207328 120.25629 150.83367)"
      gradientUnits="userSpaceOnUse"
-     x1="395.01407">
+     x1="395.30786">
     <stop
        offset="0"
        id="stop2"
@@ -130,7 +130,7 @@
        stroke-width=".692299"
        id="path21" />
     <path
-       d="m402.57144 505.798v12h12v-12zm1 3h10v8c-3.55093-0.037-6.45031-0.077-10 0zm3 2v4l4-2z"
+       d="m404.57143 505.798v12l4-1.594 4 1.594v-12h-7zm1 1h6v9.594l-3-1.188-3 1.188v-2.594z"
        fill="#331a02"
        id="path23" />
   </g>
