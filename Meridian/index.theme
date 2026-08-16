@@ -4,7 +4,7 @@ Comment=Icon theme for Meridian OS
 Inherits=Papirus-Dark,breeze,hicolor
 Example=folder
 
-Directories=apps/16,apps/22,apps/24,apps/32,apps/48,apps/64,apps/128,apps/256,apps/scalable,places/scalable,mimetypes/scalable
+Directories=apps/16,apps/22,apps/24,apps/32,apps/48,apps/64,apps/128,apps/256,apps/scalable,places/scalable,mimetypes/scalable,status/scalable
 
 [apps/16]
 Size=16
@@ -66,3 +66,10 @@ MinSize=16
 MaxSize=512
 Type=Scalable
 Context=MimeTypes
+
+[status/scalable]
+Size=22
+MinSize=8
+MaxSize=512
+Type=Scalable
+Context=Status
