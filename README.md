@@ -21,8 +21,21 @@ sudo apt install ./meridian-icon-pack_*.deb
 ```
 
 `apt` (not bare `dpkg -i`) resolves `Recommends:` (Breeze, Papirus-Dark) for
-you. Icon-cache refresh is handled automatically by debhelper's triggers —
-no manual step needed.
+you. The on-disk icon cache rebuilds automatically (debhelper's `dh_icons`
+trigger); `postinst` prints the one command needed to make an *already
+running* session pick it up (`plasmashell --replace &`, or just log out and
+back in) — a fresh icon cache alone doesn't retroactively update icons a
+running panel/launcher already has cached in memory.
+
+**Updating an existing install** is the same command, against a newer
+`.deb` — `apt`/`dpkg` upgrade in place, no need to remove first:
+
+```
+sudo apt install ./meridian-icon-pack_*.deb
+```
+
+`postinst` detects the upgrade and only prints the session-refresh step
+(your theme choice is already set from before, no need to redo that part).
 
 **Building the `.deb` yourself**, on a Debian system:
 

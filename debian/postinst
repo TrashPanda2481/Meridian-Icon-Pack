@@ -1,0 +1,35 @@
+#!/bin/sh
+# Runs automatically on install/upgrade via dpkg. $2 is the previously
+# configured version -- empty on a fresh install, set on an upgrade -- so
+# an upgrade only needs the "refresh this session" step, not the
+# "set it as your theme" step (that's already set from before).
+set -e
+
+case "$1" in
+    configure)
+        if [ -n "$2" ]; then
+            echo ""
+            echo "Meridian Icon Pack updated. Refresh your session to see it:"
+            echo "  plasmashell --replace &"
+            echo "(or just log out and back in)"
+            echo ""
+        else
+            echo ""
+            echo "Meridian Icon Pack installed. Set it as your icon theme:"
+            echo "  kwriteconfig6 --file kdeglobals --group Icons --key Theme Meridian"
+            echo "  plasmashell --replace &"
+            echo "(or: System Settings -> Appearance -> Icons -> Meridian)"
+            echo ""
+        fi
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
