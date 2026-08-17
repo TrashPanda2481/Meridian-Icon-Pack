@@ -14,11 +14,18 @@ Comment: Folder set adapted from Kanada (https://github.com/nesuko82/kde-kanada)
  recolored to the Meridian amber palette (tools/recolor-folders.sh).
 
 Files: Meridian/apps/* Meridian/status/scalable/* Meridian/mimetypes/scalable/*
+ Meridian/places/scalable/start-here-kde.svg
+ Meridian/places/scalable/start-here-kde-symbolic.svg
 Copyright: KDE Contributors
 License: LGPL-3.0-or-later
 Comment: Amber-tinted from the Breeze icon theme (KDE Frameworks/Plasma),
  via tools/tint-amber.py and tools/amber-symbolic.sh. Original shapes are
- Breeze's; only color values are changed.
+ Breeze's; only color values are changed. The start-here-kde files live
+ under places/scalable/ (matching Breeze's own categorization for this
+ icon) despite that directory otherwise being the Kanada/MIT folder set
+ below -- this stanza is listed after the places/scalable/* one on
+ purpose, per DEP-5's last-match-wins rule, so these two are correctly
+ attributed LGPL-3.0 rather than inheriting the folder set's MIT.
 
 License: GPL-3.0-or-later
  On Debian systems, the complete text of the GNU General Public License

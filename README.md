@@ -86,7 +86,12 @@ Past early. Currently in the set:
   originals, plus a few fixed-size icons for cases that need them.
 - **Status/tray** — a full symbolic set (battery states, audio, auth, etc.)
   amber-tinted for the panel and system tray.
-- **Launcher** — the compass-rose app-launcher icon and the Compass app icon.
+- **Launcher** — `start-here-kde`/`start-here-kde-symbolic` (the actual
+  freedesktop names Kickoff looks up), amber-tinted, plus the Compass app's
+  own icon.
+- **System Settings** — `preferences-system`, amber-tinted (the app's real
+  icon name; a differently-named `systemsettings.svg` was tinted earlier by
+  mistake and didn't actually get used anywhere).
 
 Anything outside those categories still falls through to Papirus-Dark or
 Breeze.
