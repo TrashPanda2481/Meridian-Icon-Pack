@@ -100,11 +100,11 @@ Past early. Currently in the set:
 - **Status/tray** — a full symbolic set (battery states, audio, auth, etc.)
   amber-tinted for the panel and system tray.
 - **Launcher** — `start-here-kde`/`start-here-kde-symbolic` (the actual
-  freedesktop names Kickoff looks up), amber-tinted, plus the Compass app's
-  own icon.
-- **System Settings** — `preferences-system`, amber-tinted (the app's real
-  icon name; a differently-named `systemsettings.svg` was tinted earlier by
-  mistake and didn't actually get used anywhere).
+  freedesktop names Kickoff looks up) reuse the Compass app's own icon —
+  deliberate branding choice, not Breeze-derived.
+- **System Settings** — `preferences-system` and `systemsettings` (both real
+  alternate names for the same app) use a plain compass glyph, amber-tinted
+  from Breeze — also a deliberate choice, not a settings-gear icon.
 
 Anything outside those categories still falls through to Papirus-Dark or
 Breeze.

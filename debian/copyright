@@ -14,18 +14,22 @@ Comment: Folder set adapted from Kanada (https://github.com/nesuko82/kde-kanada)
  recolored to the Meridian amber palette (tools/recolor-folders.sh).
 
 Files: Meridian/apps/* Meridian/status/scalable/* Meridian/mimetypes/scalable/*
- Meridian/places/scalable/start-here-kde.svg
- Meridian/places/scalable/start-here-kde-symbolic.svg
 Copyright: KDE Contributors
 License: LGPL-3.0-or-later
 Comment: Amber-tinted from the Breeze icon theme (KDE Frameworks/Plasma),
  via tools/tint-amber.py and tools/amber-symbolic.sh. Original shapes are
- Breeze's; only color values are changed. The start-here-kde files live
- under places/scalable/ (matching Breeze's own categorization for this
- icon) despite that directory otherwise being the Kanada/MIT folder set
- below -- this stanza is listed after the places/scalable/* one on
- purpose, per DEP-5's last-match-wins rule, so these two are correctly
- attributed LGPL-3.0 rather than inheriting the folder set's MIT.
+ Breeze's; only color values are changed.
+
+Files: Meridian/apps/*/compass.png
+ Meridian/apps/*/start-here-kde.png
+ Meridian/apps/*/start-here-kde-symbolic.png
+Copyright: 2026 TrashPanda2481
+License: GPL-3.0-or-later
+Comment: Meridian's own Compass app icon, not Breeze-derived -- excluded
+ from the Breeze/LGPL stanza above despite living under apps/, per DEP-5's
+ last-match-wins rule (this stanza is listed after it on purpose).
+ start-here-kde/-symbolic reuse this same artwork as the launcher icon;
+ see README.md Status for why.
 
 License: GPL-3.0-or-later
  On Debian systems, the complete text of the GNU General Public License

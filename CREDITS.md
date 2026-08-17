@@ -18,15 +18,17 @@ LGPL-3.0.
 ## Launcher and settings
 
 `start-here-kde`/`start-here-kde-symbolic` (the actual freedesktop names the
-app launcher looks up) and `preferences-system` (System Settings) are
-amber-tinted from Breeze, same as the rest of `apps/`/`status/` — see
-Fallback above. They live under `places/scalable/` because that's where
-Breeze itself files `start-here-kde`; `debian/copyright` has the exact
-attribution.
+app launcher looks up) reuse `compass` — the Compass app's own icon, from
+[Meridian OS](https://github.com/TrashPanda2481/Meridian-OS) — as a deliberate
+branding choice, not Breeze-derived. `debian/copyright` has the exact
+attribution (excluded from the Breeze/LGPL stanza on purpose).
 
-`compass` (the Compass app's own icon, a distinct thing from the system
-launcher) and the now-unused `meridian-menu` under `apps/16`, `apps/22`,
-`apps/128` predate this and came from
-[Meridian OS](https://github.com/TrashPanda2481/Meridian-OS). `meridian-menu`
-is dead now that the launcher resolves via `start-here-kde` instead; kept
-for now rather than removed (see README status notes).
+`preferences-system`/`systemsettings` (System Settings) use a plain
+`currentColor`-based compass glyph, amber-tinted from Breeze's own
+`actions/compass.svg` convention, same reasoning as `tools/amber-symbolic.sh`
+— also a deliberate choice to reuse the compass motif here rather than a
+settings-gear icon.
+
+The now-unused `meridian-menu` under `apps/16`, `apps/22`, `apps/128` predates
+both of these and came from Meridian OS the same way `compass` did; kept for
+now rather than removed (see README status notes).
