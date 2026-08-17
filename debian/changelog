@@ -1,0 +1,7 @@
+meridian-icon-pack (0.1.0-1) unstable; urgency=low
+
+  * Initial packaging as a real .deb — replaces the git-clone +
+    install.sh distribution path with standard dpkg install and
+    debhelper-driven icon-cache triggers (dh_icons).
+
+ -- TrashPanda2481 <154713431+TrashPanda2481@users.noreply.github.com>  Mon, 17 Aug 2026 12:00:00 +0000

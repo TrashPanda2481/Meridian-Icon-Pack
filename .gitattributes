@@ -2,3 +2,7 @@
 *.theme text eol=lf
 *.svg   text eol=lf
 *.png   binary
+
+# debian/rules is executed directly by dpkg-buildpackage on Linux; CRLF
+# there breaks the build. Force LF for the whole packaging directory.
+debian/*  text eol=lf

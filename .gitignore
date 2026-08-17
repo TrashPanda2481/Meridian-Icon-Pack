@@ -2,3 +2,13 @@
 *~
 .DS_Store
 icon-theme.cache
+
+# dpkg-buildpackage output (in-tree; the .deb/.changes/.buildinfo/.dsc
+# themselves land one directory above the repo, outside git entirely)
+/debian/.debhelper/
+/debian/meridian-icon-pack/
+/debian/*.substvars
+/debian/*.debhelper.log
+/debian/debhelper-build-stamp
+/debian/files
+/obj-*/

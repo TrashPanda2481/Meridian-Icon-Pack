@@ -1,0 +1,23 @@
+Source: meridian-icon-pack
+Section: kde
+Priority: optional
+Maintainer: TrashPanda2481 <154713431+TrashPanda2481@users.noreply.github.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://github.com/TrashPanda2481/Meridian-Icon-Pack
+Rules-Requires-Root: no
+
+Package: meridian-icon-pack
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: breeze-icon-theme, papirus-icon-theme
+Description: Amber-on-charcoal icon theme overlay for Meridian OS
+ Meridian Icon Pack is a curated icon theme in Meridian OS's amber-on-
+ charcoal visual style. It themes the application launcher, a growing
+ set of application icons, the full folder/places set, and panel/tray
+ status glyphs, falling through to Papirus-Dark and Breeze for
+ anything not yet covered.
+ .
+ Works standalone on any Debian system running KDE Plasma (or any
+ desktop that reads the freedesktop icon theme spec) — not limited to
+ Meridian OS itself.
